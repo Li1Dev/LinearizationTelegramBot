@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "WorkerHost",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-worker",
+      "program": "${workspaceFolder}/src/WorkerHost/bin/Debug/net9.0/WorkerHost.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/src/WorkerHost",
+      "stopAtEntry": false,
+      "console": "internalConsole",
+      "env": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    },
+    {
+      "name": ".NET Core Attach",
+      "type": "coreclr",
+      "request": "attach"
+    }
+  ]
+}

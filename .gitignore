@@ -1,0 +1,9 @@
+bin/
+obj/
+out/
+packages/
+*.csv
+examples/
+appsettings.Development.json
+
+*.local.*
